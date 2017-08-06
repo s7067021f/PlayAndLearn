@@ -1,14 +1,21 @@
 package com.mike;
 
 class Setup{
-    int a = 10;
-    assert (a < 20) : "A is not less than 20. A is " + a;
+    int a = 22;
+    
+    void someOperation(){
+        a++;
+        assert a < 20 : "test";
+    }
+
 }
 
 public class AssertPlay{
     public static void main(String[] args){
-        AssertPlay assertPlay = new AssertPlay();
-        
+        assert 33 < 20 : "Not less than 20";        
+        Setup setup = new Setup();
+        setup.someOperation();
+
     }
     
 }

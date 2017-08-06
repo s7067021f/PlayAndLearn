@@ -8,8 +8,10 @@ com/mike/Money.class
 com/mike/SongRunner.class
 com/mike/UserStatus.class
 com/mike/Demo.class
+com/mike/AssertPlay.class
 com/mike/EnumAndMultipleClasses$1.class
 com/mike/Song.class
+com/mike/Setup.class
 com/mike/Operation.class
 com/mike/Contractor.class
 com/mike/WhoIsRIR.class
